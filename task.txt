@@ -1,0 +1,12 @@
+task#1 to alignment at center without using padding
+task#2 aling course schedule at center without using padding etc 
+task#3 alignmebt of div using postions .no use of display flex
+* postions: 1:relative
+            2:absolute
+            3:sticky
+task#4 javascript start 
+1:print hello world
+2:variable decleration
+Camel casing :ist firt later first word small and next every word first latter is capital
+Pascal casing: first latter of every word will be capital
+3:get value in console

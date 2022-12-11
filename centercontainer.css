@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subconatiner{
+
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+}
+.subcontainer1{
+
+    width: 50%;
+    height: 100%;
+    background-color: rgb(136, 255, 0);
+   
+}
+.subcontainer2{
+
+    width: 50%;
+    height: 100%;
+    background-color: rgb(76, 0, 255);
+   
+}
+.break{
+    color: hsl(0, 85%, 3%);
+    background-color: #DC3535;
+}
+.daytime{
+
+    color: #FEFCF3;
+    background-color: black;
+}
+.time{
+
+color: #FED049;
+background-color: #282A3A;
+}
+.course1{
+
+    color:#0e0008;
+    background-color: #7F669D;
+}
+
+.course2{
+
+    color:  #FFEFD6;
+    background-color: #432C7A;
+}
+.course3{
+
+    color: #BCEAD5;
+    background-color: #8D72E1;
+}
+.course4{
+
+    color:#F0EBCE ;
+    background-color: #5837D0;
+}
+.course5{
+
+    color: #D8D9CF;
+    background-color: #3F0071;
+}
+.empty{
+    background-color: red;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+<style>
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.break{
+    color: hsl(0, 85%, 3%);
+    background-color: #DC3535;
+}
+.daytime{
+
+    color: #FEFCF3;
+    background-color: black;
+}
+.time{
+
+color: #FED049;
+background-color: #282A3A;
+}
+.course1{
+
+    color:#0e0008;
+    background-color: #7F669D;
+}
+
+.course2{
+
+    color:  #FFEFD6;
+    background-color: #432C7A;
+}
+.course3{
+
+    color: #BCEAD5;
+    background-color: #8D72E1;
+}
+.course4{
+
+    color:#F0EBCE ;
+    background-color: #5837D0;
+}
+.course5{
+
+    color: #D8D9CF;
+    background-color: #3F0071;
+}
+.empty{
+    background-color: red;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+<table border="1">
+    <caption>Courses Schedule</caption>
+    <tr >
+        
+            <td rowspan="2" class="daytime">day</td>
+            <td colspan="6" align="center" class="daytime">Time</td>
+        
+    </tr>
+
+
+    <tr class="time">
+        <td>8:00</td>
+        <td>9:00</td>
+        <td>10:00</td>
+        <td>11:00</td>
+        <td>11:30</td>
+        <td>12:30</td>
+    </tr>
+
+
+    <tr >
+        <td class="daytime">Mon</td>
+        <td class="course1">Course 1</td>
+        <td class="course2">Course 2</td>
+        <td class="course3">Course 3</td>
+        <td rowspan="5" align="center" class="break">B<br>R<br>E<br>A<br>K <br> </td>
+        <td class="course5">Course 5</td>
+        <td class="empty"></td>
+    </tr>
+
+
+    <tr >
+        <td class="daytime">Tue</td>
+        <td colspan="2" class="empty"></td>
+        <td class="course2">Course 2</td>
+        <td class="course4">Course 4</td>
+        <td class="course1">Course 1</td>
+    </tr>
+
+    <tr >
+        <td class="daytime">Wed</td>
+       
+        <td class="course3">Course 3</td>
+        <td colspan="2" class="empty"></td>
+        <td class="course2">Course 2</td>
+        <td class="empty"></td>
+    </tr>
+
+
+    <tr >
+        <td class="daytime">Thr</td>
+       
+        <td rowspan="2" class="course4">Course 4</td>
+        <td class="course3">Course 3</td>
+        <td class="empty"></td>
+        <td colspan="2" class="empty"></td>
+
+        
+        
+    </tr>
+
+    <tr >
+        <td class="daytime">Fri</td>
+        <td class="empty"></td>
+        <td class="course1">Course 1</td>
+        <td rowspan="2" class="course5">Theseis</td>
+        <td class="empty"></td>
+    </tr>
+
+
+
+
+
+</table>
+
+</div>
+
+
+
+
+
+
+</body>

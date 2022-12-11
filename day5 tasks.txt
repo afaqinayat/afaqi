@@ -1,0 +1,10 @@
+Recape of previous lecture
+->Conditional statments
+*if. else condition
+*task2-> of number ,grade calculation
+->strings
+->logical operators
+->array
+task4->take input from the user and then print the table of that number
+->gethub version control syste(vcs)
+
